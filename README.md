@@ -1,7 +1,10 @@
 # Inssagram
 
 Instagram-like iOS app.
+
 It uses instagram-private-api Node.js package with nodejs-mobile to access actual Instagram data.
+
+https://user-images.githubusercontent.com/1168866/137264132-a6a54273-2154-4dbc-9875-3e91c278f991.mov
 
 ## DISCLAIMER
 
@@ -15,10 +18,10 @@ It is recommended that you create a test account for this app.  If something goe
 
 ### Swift Packages dependencies
 
-https://github.com/kewlbear/InstagramPrivateAPI
-https://github.com/kewlbear/NodeDecoder
-https://github.com/kewlbear/NodeBridge
-https://github.com/kewlbear/nodejs-ios
+- https://github.com/kewlbear/InstagramPrivateAPI
+- https://github.com/kewlbear/NodeDecoder
+- https://github.com/kewlbear/NodeBridge
+- https://github.com/kewlbear/nodejs-ios
 
 ## Credits
 
