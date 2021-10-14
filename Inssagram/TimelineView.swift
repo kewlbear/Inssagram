@@ -1,6 +1,6 @@
 //
-//  ContentView.swift
-//  inSJagram
+//  TimelineView.swift
+//  TimelineView
 //
 //  Copyright (c) 2021 Changbeom Ahn
 //
@@ -23,40 +23,24 @@
 //  THE SOFTWARE.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
-    @State var text: String?
+struct TimelineView: UIViewControllerRepresentable {
+    @EnvironmentObject var service: AppModel
     
-    var body: some View {
-        TabView {
-            NavigationView {
-                TimelineView()
-                    .navigationBarTitle("Inssagram")
-            }
-            .tabItem {
-                Label("", systemImage: "house")
-            }
-
-            NavigationView {
-                Text("search")
-            }
-            .tabItem {
-                Label("", systemImage: "magnifyingglass")
-            }
-
-            NavigationView {
-                ProfileView(username: "kewlsta")
-            }
-            .tabItem {
-                Label("", systemImage: "person")
-            }
-        }
+    func makeUIViewController(context: Context) -> TimelineViewController {
+        let viewController = TimelineViewController()
+        viewController.service = service
+        return viewController
+    }
+    
+    func updateUIViewController(_ uiViewController: TimelineViewController, context: Context) {
+        print(#function)
+    }
+    
+    static func dismantleUIViewController(_ uiViewController: TimelineViewController, coordinator: ()) {
+        print(#function)
+        uiViewController.dismantle()
     }
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ProfileView.swift
 //  inSJagram
 //
 //  Copyright (c) 2021 Changbeom Ahn
@@ -23,40 +23,29 @@
 //  THE SOFTWARE.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
-    @State var text: String?
+struct ProfileView: View {
+    let username: String
+    
+    @State var showLoginView = false
     
     var body: some View {
-        TabView {
-            NavigationView {
-                TimelineView()
-                    .navigationBarTitle("Inssagram")
+        List {
+            Text("TBD")
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+                    showLoginView = true
+                } label: {
+                    Text(username)
+                }
             }
-            .tabItem {
-                Label("", systemImage: "house")
-            }
-
-            NavigationView {
-                Text("search")
-            }
-            .tabItem {
-                Label("", systemImage: "magnifyingglass")
-            }
-
-            NavigationView {
-                ProfileView(username: "kewlsta")
-            }
-            .tabItem {
-                Label("", systemImage: "person")
-            }
+        }
+        .sheet(isPresented: $showLoginView) {
+            LoginView()
         }
     }
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}

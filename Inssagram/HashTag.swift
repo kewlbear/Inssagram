@@ -1,6 +1,6 @@
 //
-//  ContentView.swift
-//  inSJagram
+//  HashTag.swift
+//  Inssagram
 //
 //  Copyright (c) 2021 Changbeom Ahn
 //
@@ -23,40 +23,21 @@
 //  THE SOFTWARE.
 //
 
-import SwiftUI
+import Foundation
 
-struct ContentView: View {
-    @State var text: String?
-    
-    var body: some View {
-        TabView {
-            NavigationView {
-                TimelineView()
-                    .navigationBarTitle("Inssagram")
-            }
-            .tabItem {
-                Label("", systemImage: "house")
-            }
-
-            NavigationView {
-                Text("search")
-            }
-            .tabItem {
-                Label("", systemImage: "magnifyingglass")
-            }
-
-            NavigationView {
-                ProfileView(username: "kewlsta")
-            }
-            .tabItem {
-                Label("", systemImage: "person")
-            }
+extension String {
+    func hashTagRanges() -> [Range<String.Index>] {
+        var ranges: [Range<String.Index>] = []
+        let text = self
+        var remain = text.startIndex..<text.endIndex
+        let delimiters = CharacterSet(charactersIn: "#").union(.whitespacesAndNewlines)
+        while let range = text.range(of: "#", range: remain) {
+            let endIndex = text.rangeOfCharacter(from: delimiters, range: range.upperBound..<text.endIndex)?.lowerBound
+            ?? text.endIndex
+            ranges.append(range.lowerBound..<endIndex)
+            guard endIndex < text.endIndex else { break }
+            remain = endIndex..<text.endIndex
         }
+        return ranges
     }
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}

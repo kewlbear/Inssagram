@@ -1,0 +1,11 @@
+{
+  "name": "native-xcode-node-project",
+  "version": "0.0.1",
+  "description": "node part of the project",
+  "main": "main.js",
+  "author": "janeasystems",
+  "license": "",
+  "dependencies": {
+    "instagram-private-api": "^1.45.1"
+  }
+}

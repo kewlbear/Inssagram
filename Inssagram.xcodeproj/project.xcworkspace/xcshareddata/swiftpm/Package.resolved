@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "630cc7e82f2f0b4c6c3950e78c4b8b559008a023",
+          "version": "7.1.0"
+        }
+      },
+      {
+        "package": "NodeBridge",
+        "repositoryURL": "https://github.com/kewlbear/NodeBridge.git",
+        "state": {
+          "branch": "main",
+          "revision": "6bb73be9a38cd1cb748b996d90820acb870e186a",
+          "version": null
+        }
+      },
+      {
+        "package": "NodeDecoder",
+        "repositoryURL": "https://github.com/kewlbear/NodeDecoder.git",
+        "state": {
+          "branch": "main",
+          "revision": "73a398c1bce4dcbe6599ff9e9edffc6a6cb5fa8f",
+          "version": null
+        }
+      },
+      {
+        "package": "nodejs-ios",
+        "repositoryURL": "https://github.com/kewlbear/nodejs-ios.git",
+        "state": {
+          "branch": "main",
+          "revision": "d758bcfcb2e7754d218f1fd109976e988704a061",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

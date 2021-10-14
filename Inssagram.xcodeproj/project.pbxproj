@@ -14,6 +14,18 @@
 		4CCACA3D2717D0EE00B4C5F6 /* InssagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA3C2717D0EE00B4C5F6 /* InssagramTests.swift */; };
 		4CCACA472717D0EF00B4C5F6 /* InssagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA462717D0EF00B4C5F6 /* InssagramUITests.swift */; };
 		4CCACA492717D0EF00B4C5F6 /* InssagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA482717D0EF00B4C5F6 /* InssagramUITestsLaunchTests.swift */; };
+		4CCACA562717D24B00B4C5F6 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA552717D24B00B4C5F6 /* AppModel.swift */; };
+		4CCACA592717DFD400B4C5F6 /* NodeDecoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA582717DFD400B4C5F6 /* NodeDecoder */; };
+		4CCACA5D2717E06B00B4C5F6 /* InstagramPrivateAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA5C2717E06B00B4C5F6 /* InstagramPrivateAPI */; };
+		4CCACA5F2717E3D000B4C5F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA5E2717E3D000B4C5F6 /* LoginView.swift */; };
+		4CCACA612717E44500B4C5F6 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA602717E44500B4C5F6 /* TimelineViewController.swift */; };
+		4CCACA642717E61700B4C5F6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA632717E61700B4C5F6 /* Kingfisher */; };
+		4CCACA662717E87800B4C5F6 /* HashTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA652717E87800B4C5F6 /* HashTag.swift */; };
+		4CCACA682717EB9800B4C5F6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA672717EB9800B4C5F6 /* ProfileView.swift */; };
+		4CCACA6A2717EC3200B4C5F6 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA692717EC3200B4C5F6 /* TimelineView.swift */; };
+		4CCACA6C2717EDF400B4C5F6 /* nodejs-project in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA6B2717EDF400B4C5F6 /* nodejs-project */; };
+		4CCACA712717F80900B4C5F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA6F2717F80900B4C5F6 /* LICENSE */; };
+		4CCACA722717F80900B4C5F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA702717F80900B4C5F6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,17 @@
 		4CCACA422717D0EF00B4C5F6 /* InssagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InssagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCACA462717D0EF00B4C5F6 /* InssagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InssagramUITests.swift; sourceTree = "<group>"; };
 		4CCACA482717D0EF00B4C5F6 /* InssagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InssagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CCACA552717D24B00B4C5F6 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		4CCACA5A2717E05E00B4C5F6 /* InstagramPrivateAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = InstagramPrivateAPI; path = ../InstagramPrivateAPI; sourceTree = "<group>"; };
+		4CCACA5E2717E3D000B4C5F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4CCACA602717E44500B4C5F6 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		4CCACA652717E87800B4C5F6 /* HashTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTag.swift; sourceTree = "<group>"; };
+		4CCACA672717EB9800B4C5F6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4CCACA692717EC3200B4C5F6 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		4CCACA6B2717EDF400B4C5F6 /* nodejs-project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "nodejs-project"; sourceTree = SOURCE_ROOT; };
+		4CCACA6D2717F21D00B4C5F6 /* NodeBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NodeBridge; path = ../NodeBridge; sourceTree = "<group>"; };
+		4CCACA6F2717F80900B4C5F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4CCACA702717F80900B4C5F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCACA642717E61700B4C5F6 /* Kingfisher in Frameworks */,
+				4CCACA5D2717E06B00B4C5F6 /* InstagramPrivateAPI in Frameworks */,
+				4CCACA592717DFD400B4C5F6 /* NodeDecoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +100,15 @@
 		4CCACA1F2717D0EB00B4C5F6 = {
 			isa = PBXGroup;
 			children = (
+				4CCACA702717F80900B4C5F6 /* README.md */,
+				4CCACA6F2717F80900B4C5F6 /* LICENSE */,
+				4CCACA6D2717F21D00B4C5F6 /* NodeBridge */,
+				4CCACA5A2717E05E00B4C5F6 /* InstagramPrivateAPI */,
 				4CCACA2A2717D0EB00B4C5F6 /* Inssagram */,
 				4CCACA3B2717D0EE00B4C5F6 /* InssagramTests */,
 				4CCACA452717D0EF00B4C5F6 /* InssagramUITests */,
 				4CCACA292717D0EB00B4C5F6 /* Products */,
+				4CCACA5B2717E06B00B4C5F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +125,15 @@
 		4CCACA2A2717D0EB00B4C5F6 /* Inssagram */ = {
 			isa = PBXGroup;
 			children = (
+				4CCACA6B2717EDF400B4C5F6 /* nodejs-project */,
 				4CCACA2B2717D0EB00B4C5F6 /* InssagramApp.swift */,
 				4CCACA2D2717D0EB00B4C5F6 /* ContentView.swift */,
+				4CCACA5E2717E3D000B4C5F6 /* LoginView.swift */,
+				4CCACA672717EB9800B4C5F6 /* ProfileView.swift */,
+				4CCACA692717EC3200B4C5F6 /* TimelineView.swift */,
+				4CCACA602717E44500B4C5F6 /* TimelineViewController.swift */,
+				4CCACA552717D24B00B4C5F6 /* AppModel.swift */,
+				4CCACA652717E87800B4C5F6 /* HashTag.swift */,
 				4CCACA2F2717D0EE00B4C5F6 /* Assets.xcassets */,
 				4CCACA312717D0EE00B4C5F6 /* Preview Content */,
 			);
@@ -127,6 +165,13 @@
 			path = InssagramUITests;
 			sourceTree = "<group>";
 		};
+		4CCACA5B2717E06B00B4C5F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +181,7 @@
 			buildPhases = (
 				4CCACA242717D0EB00B4C5F6 /* Sources */,
 				4CCACA252717D0EB00B4C5F6 /* Frameworks */,
+				4CCACA6E2717F46800B4C5F6 /* ShellScript */,
 				4CCACA262717D0EB00B4C5F6 /* Resources */,
 			);
 			buildRules = (
@@ -143,6 +189,11 @@
 			dependencies = (
 			);
 			name = Inssagram;
+			packageProductDependencies = (
+				4CCACA582717DFD400B4C5F6 /* NodeDecoder */,
+				4CCACA5C2717E06B00B4C5F6 /* InstagramPrivateAPI */,
+				4CCACA632717E61700B4C5F6 /* Kingfisher */,
+			);
 			productName = Inssagram;
 			productReference = 4CCACA282717D0EB00B4C5F6 /* Inssagram.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +266,10 @@
 				Base,
 			);
 			mainGroup = 4CCACA1F2717D0EB00B4C5F6;
+			packageReferences = (
+				4CCACA572717DFD400B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */,
+				4CCACA622717E61700B4C5F6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 4CCACA292717D0EB00B4C5F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCACA6C2717EDF400B4C5F6 /* nodejs-project in Resources */,
 				4CCACA332717D0EE00B4C5F6 /* Preview Assets.xcassets in Resources */,
+				4CCACA722717F80900B4C5F6 /* README.md in Resources */,
+				4CCACA712717F80900B4C5F6 /* LICENSE in Resources */,
 				4CCACA302717D0EE00B4C5F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +310,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CCACA6E2717F46800B4C5F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(PROJECT_DIR)/nodejs-project/node_modules",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $PROJECT_DIR/nodejs-project\nnpm install instagram-private-api\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CCACA242717D0EB00B4C5F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4CCACA2E2717D0EB00B4C5F6 /* ContentView.swift in Sources */,
+				4CCACA562717D24B00B4C5F6 /* AppModel.swift in Sources */,
+				4CCACA5F2717E3D000B4C5F6 /* LoginView.swift in Sources */,
 				4CCACA2C2717D0EB00B4C5F6 /* InssagramApp.swift in Sources */,
+				4CCACA662717E87800B4C5F6 /* HashTag.swift in Sources */,
+				4CCACA682717EB9800B4C5F6 /* ProfileView.swift in Sources */,
+				4CCACA612717E44500B4C5F6 /* TimelineViewController.swift in Sources */,
+				4CCACA6A2717EC3200B4C5F6 /* TimelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +686,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CCACA572717DFD400B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/NodeDecoder.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4CCACA622717E61700B4C5F6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CCACA582717DFD400B4C5F6 /* NodeDecoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CCACA572717DFD400B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */;
+			productName = NodeDecoder;
+		};
+		4CCACA5C2717E06B00B4C5F6 /* InstagramPrivateAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InstagramPrivateAPI;
+		};
+		4CCACA632717E61700B4C5F6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CCACA622717E61700B4C5F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4CCACA202717D0EB00B4C5F6 /* Project object */;
 }
