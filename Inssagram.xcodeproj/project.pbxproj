@@ -26,6 +26,7 @@
 		4CCACA6C2717EDF400B4C5F6 /* nodejs-project in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA6B2717EDF400B4C5F6 /* nodejs-project */; };
 		4CCACA712717F80900B4C5F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA6F2717F80900B4C5F6 /* LICENSE */; };
 		4CCACA722717F80900B4C5F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA702717F80900B4C5F6 /* README.md */; };
+		E1E9C5F527192F7400C8A69D /* InstagramPrivateAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E1E9C5F427192F7400C8A69D /* InstagramPrivateAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 			files = (
 				4CCACA642717E61700B4C5F6 /* Kingfisher in Frameworks */,
 				4CCACA5D2717E06B00B4C5F6 /* InstagramPrivateAPI in Frameworks */,
+				E1E9C5F527192F7400C8A69D /* InstagramPrivateAPI in Frameworks */,
 				4CCACA592717DFD400B4C5F6 /* NodeDecoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +195,7 @@
 				4CCACA582717DFD400B4C5F6 /* NodeDecoder */,
 				4CCACA5C2717E06B00B4C5F6 /* InstagramPrivateAPI */,
 				4CCACA632717E61700B4C5F6 /* Kingfisher */,
+				E1E9C5F427192F7400C8A69D /* InstagramPrivateAPI */,
 			);
 			productName = Inssagram;
 			productReference = 4CCACA282717D0EB00B4C5F6 /* Inssagram.app */;
@@ -269,6 +272,7 @@
 			packageReferences = (
 				4CCACA572717DFD400B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */,
 				4CCACA622717E61700B4C5F6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E1E9C5F327192F7400C8A69D /* XCRemoteSwiftPackageReference "InstagramPrivateAPI" */,
 			);
 			productRefGroup = 4CCACA292717D0EB00B4C5F6 /* Products */;
 			projectDirPath = "";
@@ -327,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $PROJECT_DIR/nodejs-project\nnpm install instagram-private-api\n";
+			shellScript = "cd $PROJECT_DIR/nodejs-project\nexport PATH=$PATH:/opt/homebrew/bin\nnpm install instagram-private-api\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -704,6 +708,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		E1E9C5F327192F7400C8A69D /* XCRemoteSwiftPackageReference "InstagramPrivateAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/InstagramPrivateAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -720,6 +732,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4CCACA622717E61700B4C5F6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		E1E9C5F427192F7400C8A69D /* InstagramPrivateAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1E9C5F327192F7400C8A69D /* XCRemoteSwiftPackageReference "InstagramPrivateAPI" */;
+			productName = InstagramPrivateAPI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

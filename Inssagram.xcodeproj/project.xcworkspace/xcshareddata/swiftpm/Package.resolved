@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "InstagramPrivateAPI",
+        "repositoryURL": "https://github.com/kewlbear/InstagramPrivateAPI.git",
+        "state": {
+          "branch": null,
+          "revision": "ee89052585b2d7167a54db23905c92534505c7e0",
+          "version": "0.0.1"
+        }
+      },
+      {
         "package": "Kingfisher",
         "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
         "state": {
